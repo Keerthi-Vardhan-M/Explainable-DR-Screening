@@ -1,0 +1,352 @@
+{
+  "repository": "explainable-dr-screening-matlab",
+  "fileCount": 69,
+  "modelIncluded": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 137,
+      "sha256": "1de9309d2aa1a5472f9134e21e983a3a1c2eb4f6fd9a248bdfbebbd1b708c7a0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 217,
+      "sha256": "4021f7f259feae6f0d7da50256d3ba62f025925041aa0570f58601207fd1b4f5"
+    },
+    {
+      "path": "blendAttention.m",
+      "bytes": 369,
+      "sha256": "c714c8c61a1266a2dc09771f3a34585520a86850645a461286a642ad8e876a65"
+    },
+    {
+      "path": "buildScreeningSimulink.m",
+      "bytes": 3431,
+      "sha256": "e7a8d08a6ecf857e532c1cd4c47873f1c24bbf3c44d84e81279687c9e2c88318"
+    },
+    {
+      "path": "calibrateDRDemo.m",
+      "bytes": 2623,
+      "sha256": "f5beb5e50552755e1afe2aaa9c286e8aa4ba2a271fb8b9ecd6c018a078aa874a"
+    },
+    {
+      "path": "checkFullDRDemo.m",
+      "bytes": 3436,
+      "sha256": "c571abc61e103aed3137a60de9c3bda73c9b940460776fd3367f4c66c0a2cf2a"
+    },
+    {
+      "path": "checkSimulinkDemo.m",
+      "bytes": 567,
+      "sha256": "750ee688064925b87ad8291d6aa9164ce3e72b0c884a1c563bd7e30a53209c2a"
+    },
+    {
+      "path": "core/matlab_stage123/assessFundusQuality.m",
+      "bytes": 2494,
+      "sha256": "4deb1dc1c2b68b8aa91bd6dfd2e240d67d04a796d6a3270556467b9d3e81c241"
+    },
+    {
+      "path": "core/matlab_stage123/checkFundusEnvironment.m",
+      "bytes": 526,
+      "sha256": "ade7b752c8289936f2aba992b00ffe68b07870def14c24ac6bb4da82ba23e20f"
+    },
+    {
+      "path": "core/matlab_stage123/checkStage123.m",
+      "bytes": 7676,
+      "sha256": "d8487e77391563c18caf88f1420fcc996c76409b9d7146ca4efc61241e3049da"
+    },
+    {
+      "path": "core/matlab_stage123/demoStage123.m",
+      "bytes": 1107,
+      "sha256": "2cc1230155108ff7c6e315780b87855b66227551c8dcdcce7becd6cf25a2c2b8"
+    },
+    {
+      "path": "core/matlab_stage123/discoverFundus.m",
+      "bytes": 5272,
+      "sha256": "0a7d32629c67035f96a74304f854bede1cbaf95e4e5bddc6166b42a28ba61f9f"
+    },
+    {
+      "path": "core/matlab_stage123/enhanceFundus.m",
+      "bytes": 2182,
+      "sha256": "17d2a4d1f6aedcb58d97ce600bfdec27d96883066f32973f636869cef987ba59"
+    },
+    {
+      "path": "core/matlab_stage123/fundusConfig.m",
+      "bytes": 1527,
+      "sha256": "c2d806128a31213d196238c7a6d7025bab30fd6250a97967ee95ff494c0118cf"
+    },
+    {
+      "path": "core/matlab_stage123/gateFundusQuality.m",
+      "bytes": 2435,
+      "sha256": "27619048809420960a2667960ca2831d9228cfd0f5070a7e3535ca80cf1e4217"
+    },
+    {
+      "path": "core/matlab_stage123/processFundus.m",
+      "bytes": 2669,
+      "sha256": "5594a8a2ed180f1d23011a0d47fdb84c241619d794a5f043fa3df019a316e000"
+    },
+    {
+      "path": "core/matlab_stage123/readFundus.m",
+      "bytes": 2223,
+      "sha256": "ca177e3749a6f8563ff0819df99194e3f0106f9862b97a2044c098c49d54070b"
+    },
+    {
+      "path": "core/matlab_stage123/README.md",
+      "bytes": 10725,
+      "sha256": "591116bc3fe2ab4eba23907039975e3626cdb8c81c714b0badc2410fec36a9b0"
+    },
+    {
+      "path": "core/matlab_stage123/runStage123.m",
+      "bytes": 3293,
+      "sha256": "cf6f57a1d6f47dfa6b2b8e26c0d060832325b7c175f70de7ddee74be7ed6d067"
+    },
+    {
+      "path": "core/matlab_stage123/saveFundusResult.m",
+      "bytes": 2186,
+      "sha256": "f312cf81e4331705cd63f65b2f41cb6939fc06445f34f5fb9e850c88df03950c"
+    },
+    {
+      "path": "core/matlab_stage123/startHere.m",
+      "bytes": 631,
+      "sha256": "5cc482124d7b2cf7397f5b730871d7c36777bcdf5c8914ee3321e64d1359eb63"
+    },
+    {
+      "path": "core/matlab_stage123/static_audit.json",
+      "bytes": 242,
+      "sha256": "6ff685ed68845b34fb0c595fa28e9338c077c39d6b484ff31a7fc58f7cd87527"
+    },
+    {
+      "path": "core/matlab_stage123/validateFundusConfig.m",
+      "bytes": 2819,
+      "sha256": "3e8095389258d35c5f21d8589f88eeb743fe7d3330ce560181ef9dda6edf8b63"
+    },
+    {
+      "path": "core/matlab_stage123/validateIDRiD.m",
+      "bytes": 1593,
+      "sha256": "31862882839f2d2659817b57fd5267006590bb7d71eff3c4db5288dc1e52a078"
+    },
+    {
+      "path": "core/matlab_stage123/VALIDATION.md",
+      "bytes": 3163,
+      "sha256": "5b2a66b80d19135a33467409d0a2166b6f95db4c28a20cb7bf6f5e08cd17325b"
+    },
+    {
+      "path": "datasets/README.md",
+      "bytes": 463,
+      "sha256": "88e81cef3621177cf2cba01f97304e417d00c7f0fbd428ec968f6523e84b37c9"
+    },
+    {
+      "path": "demo_assets/synthetic_fundus.png",
+      "bytes": 8738,
+      "sha256": "8a3a0eed024c58944c03742a1f8024590f977da3854f7a65c84dc6c8a5bc8c8a"
+    },
+    {
+      "path": "docs/application-dashboard.png",
+      "bytes": 354570,
+      "sha256": "0b6ef9fd17026e105391faae3a0a00a2916878d85279a5cdd2a4869f7e23efd7"
+    },
+    {
+      "path": "docs/architecture.excalidraw",
+      "bytes": 1211312,
+      "sha256": "fd89be5f86befd70e8127e4a9fc3509ecf04be1f12a299944fc78eef466376ff"
+    },
+    {
+      "path": "docs/architecture.png",
+      "bytes": 1492212,
+      "sha256": "d8d10b47aa78338a38830c5f26dc574385f01f4e86760f4395b563115e809dff"
+    },
+    {
+      "path": "docs/architecture.svg",
+      "bytes": 1171211,
+      "sha256": "ce1c254c2f005903f6c7bb28d750e73b1cb69c408a642dff3d641171d5315ee0"
+    },
+    {
+      "path": "docs/capacity-results.png",
+      "bytes": 81206,
+      "sha256": "b5fd4d1a7b33b90d3ebe55ed0cada49135fc14eb8cbff264255d11949ace4ccb"
+    },
+    {
+      "path": "docs/sample-screening-report.pdf",
+      "bytes": 1059379,
+      "sha256": "3e55bb3a0462ae2cc8b54211e0bab0e55f249a6cb889925f44754333798b2aad"
+    },
+    {
+      "path": "docs/simulink-model.png",
+      "bytes": 385445,
+      "sha256": "f50e29404b449c19a337678afa5ccedd71dc008b40f8f1076d1bc740701ec123"
+    },
+    {
+      "path": "docs/validation-results.png",
+      "bytes": 51170,
+      "sha256": "490874cddd1cc95903a7cd9d48576fe67ab8d2cc8f101b61aacb31d7ef45c851"
+    },
+    {
+      "path": "drDemoConfig.m",
+      "bytes": 1099,
+      "sha256": "44fadf339ca36d4c1db435588879a59ed51fc80b2f26a02908a490910ab593e8"
+    },
+    {
+      "path": "explainDRModel.m",
+      "bytes": 1479,
+      "sha256": "898a1b3ffc51597e8162ca93fdb7b8479f68d2464ab4e3f77e7c7bd0935c4222"
+    },
+    {
+      "path": "exportDRReport.m",
+      "bytes": 5486,
+      "sha256": "50ea257cf111c12c633118e8844a1959828610d9e4f6b38e545b1cbe71d7d1b1"
+    },
+    {
+      "path": "extractRetinalEvidence.m",
+      "bytes": 6740,
+      "sha256": "75c4460fd47eec7b56549366e1843e382de34ae6b074f65c6775e1507524de19"
+    },
+    {
+      "path": "idridGradeManifest.m",
+      "bytes": 2788,
+      "sha256": "153f25d94b2e1c46ec05431e2bb54a8a4d2a6620afa829c618c3c2a88b274ca3"
+    },
+    {
+      "path": "inspectDRModel.m",
+      "bytes": 487,
+      "sha256": "bec383378936179a6bf7e40c7eaef228635f661e7d3eafd4023595ca4e6101b3"
+    },
+    {
+      "path": "launchDRDemo.m",
+      "bytes": 8462,
+      "sha256": "490d30b01a5714c5337aa52a57588328e1be67d1fef0f3605e401b249cc4c70e"
+    },
+    {
+      "path": "loadDRCalibration.m",
+      "bytes": 490,
+      "sha256": "f51b0be4a1096abd793ea90adc3626b052c3bfda4ffc3d5f01aa22841df0d7ee"
+    },
+    {
+      "path": "loadDRModel.m",
+      "bytes": 2759,
+      "sha256": "334b3f25374da121b6ea8a77d6e7e048d97888e9f0f74637ae13d0eae9c14cbf"
+    },
+    {
+      "path": "makeEvidenceOverlay.m",
+      "bytes": 767,
+      "sha256": "ff343dbb84f86cad16425911147efe42b2e9270966a6fc33f28856cca81a1f87"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 1191,
+      "sha256": "6bf4b66365ba8f7e9f93246387895204ab0db449442e411d5be2de58b58f1634"
+    },
+    {
+      "path": "optimizeScreeningResources.m",
+      "bytes": 840,
+      "sha256": "88bbcfcadbda32592f76f6b0c51ee8aa0ef43f882b20d7d4687f6474e21056de"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "bytes": 11412,
+      "sha256": "5087bf254e9f26374236d85a3aa96a882382284ec5a60f3b8f6934c3fd50d6dc"
+    },
+    {
+      "path": "predictDRModel.m",
+      "bytes": 1043,
+      "sha256": "150b80afa2ee509d7f37be81dc76fc70b604142c72aaad3463525b916de817d1"
+    },
+    {
+      "path": "predictLesionBranch.m",
+      "bytes": 440,
+      "sha256": "40bb8a5173429bc0e5a91701e33e1ce693e2792432e3c7705c2f0ff898b9b564"
+    },
+    {
+      "path": "prepareDRInput.m",
+      "bytes": 677,
+      "sha256": "abf000bc66b45f03f1555becbe4f2df3b4587fe3327dda1f1e8d9c8dac113d5c"
+    },
+    {
+      "path": "preparePresentationCases.m",
+      "bytes": 1522,
+      "sha256": "a682412d28d5afed4953d2db0ec3e179f01e8955780ee13cdef8883ff9d4298f"
+    },
+    {
+      "path": "PRESENTATION.md",
+      "bytes": 4585,
+      "sha256": "cc8b8053ad3811356515818b85826286dd8ace7d96b5aa11d2ca5fb51340d4ca"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7613,
+      "sha256": "da22f9ee7fef083e40f2504c3317a4feaec3f9eaec6f0e7a3d99c215bcea50b3"
+    },
+    {
+      "path": "referralMetrics.m",
+      "bytes": 1110,
+      "sha256": "7e3a8c6f2f2cda7484d3e2cf85872966aadbc3048a599612abd053d7e046baf4"
+    },
+    {
+      "path": "runDRCase.m",
+      "bytes": 5102,
+      "sha256": "6e6dcbe85c6a03dacb14f6916bc569f6cc1a92cce1eeefaf39abd62ad5d74e4b"
+    },
+    {
+      "path": "scoreDRDataset.m",
+      "bytes": 1471,
+      "sha256": "0136a84e3773934e7ce27f93ee566ff2409b29c71bc4c5d8de71847f10ceefb1"
+    },
+    {
+      "path": "setupDRDemo.m",
+      "bytes": 1341,
+      "sha256": "78981bbcbe912f6a4f94a9f1995be3ccf9744d8de280d8ba7a91cc1a3c4324f5"
+    },
+    {
+      "path": "simulateScreeningWorkflow.m",
+      "bytes": 2268,
+      "sha256": "0cf732b9f677234b235d95e245fbf7059a2682dfde0b98233faf489091f81a0e"
+    },
+    {
+      "path": "startHere.m",
+      "bytes": 824,
+      "sha256": "b34b120ca3e2c8f1f9dbebdd9f5a24ddb764f479d43710a4428da833ec24dbdf"
+    },
+    {
+      "path": "temperatureScores.m",
+      "bytes": 294,
+      "sha256": "8194bf767e4a6a78e3e522c5cafbd377993396100a818dfd6b929f8cec9b2af8"
+    },
+    {
+      "path": "trainLesionBranch.m",
+      "bytes": 1924,
+      "sha256": "d8681dbc23966862dd58f0b5d559c7daeaab03dc184fc71897cb1769c05843ef"
+    },
+    {
+      "path": "validateDRDemo.m",
+      "bytes": 2953,
+      "sha256": "88eceec25ecfbed7791b90242f38465b80fec90b063375b5a64b5f07acc61685"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2111,
+      "sha256": "1eff7d59cce1c8fda263da9168a193a6463deec844ef4beb5f45e5b25a298962"
+    },
+    {
+      "path": "verifyDRPreprocessing.m",
+      "bytes": 1973,
+      "sha256": "d764f5753d9f9a63b2d79fe97d9dbd06a63be5b4eab2cadf3fd1de237ae25588"
+    },
+    {
+      "path": "workflowCapacities.m",
+      "bytes": 1189,
+      "sha256": "3f343da051198a571d330d17f8cfaad6640f35059a9949592c9a1d0ad80bd6ba"
+    },
+    {
+      "path": "workflowConfig.m",
+      "bytes": 713,
+      "sha256": "e9766eb03b481c4dc79293b722830f82be0c8015b79d650873fb1c58eaaaa3b2"
+    },
+    {
+      "path": "workflowDemo.m",
+      "bytes": 2826,
+      "sha256": "52f50338b36168718d38733fc58c0e5da7315c8d6e4d46ff9d385ef57c4cc368"
+    },
+    {
+      "path": "writeCaseSummary.m",
+      "bytes": 830,
+      "sha256": "b6212e5f5177a5f4c851f34b5d62ee1be04e1660312c495153d2556d905b315d"
+    }
+  ]
+}
