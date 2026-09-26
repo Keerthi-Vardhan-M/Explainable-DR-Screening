@@ -1,0 +1,8 @@
+{
+  "matlab_files": 15,
+  "config_fields": 39,
+  "config_references_resolved": true,
+  "entry_points_present": true,
+  "matlab_runtime_tests_executed": false,
+  "scope": "static artifact checks only; no MATLAB parsing or execution"
+}

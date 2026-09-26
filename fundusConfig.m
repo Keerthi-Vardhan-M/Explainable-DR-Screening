@@ -1,0 +1,43 @@
+function c = fundusConfig()
+%FUNDUSCONFIG Editable engineering defaults, not clinical quality thresholds.
+c.version = 'stage123-v1.0.1';
+c.analysisSize = 768;          % QA only; output retains native geometry
+c.minDimension = 512;
+c.maskThreshold = 0.025;
+c.minCoverage = 0.20;
+c.minSolidity = 0.80;
+c.maxAxisRatio = 1.55;         % Allow rectangular clipping of circular fields
+c.maxCenterOffset = 0.20;
+c.minFocus = 0.000015;
+c.goodFocus = 0.00006;
+c.minMean = 0.08;
+c.maxMean = 0.85;
+c.goodMeanRange = [0.20 0.65];
+c.maxDarkFraction = 0.30;
+c.maxBrightFraction = 0.15;
+c.maxIlluminationCV = 0.65;
+c.goodIlluminationCV = 0.30;
+c.goodContrast = 0.12;
+c.maxNoise = 0.025;
+c.rejectNoise = 0.07;
+c.clipLimit = 0.01;            % Normalized MATLAB CLAHE ClipLimit
+c.claheBlend = 0.35;
+c.claheTiles = [8 8];
+c.maxGain = 1.8;
+c.maxClippingIncrease = 0.02;
+c.denoiseBlend = 0.5;
+c.denoiseSpatialSigma = 1;     % Native pixels; conservative for tiny lesions
+c.denoiseDegree = 0.0004;      % Luminance normalized to [0,1]
+c.allowGrayscale = false;     % True converts gray to RGB for review only
+c.recursive = true;
+c.datasetMode = 'auto';       % auto, idrid, generic
+c.excludeFolderPatterns = {'ground truth','groundtruth','ground_truth', ...
+    'annotation','mask','stage123_results'};
+c.excludeFilePatterns = {'_MA','_HE','_EX','_SE','_OD','_mask'};
+c.extensions = {'.jpg','.jpeg','.png','.tif','.tiff','.bmp'};
+c.writeMAT = true;
+c.writeCandidate = true;
+c.writePreview = true;
+c.pngBitDepth = 16;
+c.continueOnError = true;
+end
