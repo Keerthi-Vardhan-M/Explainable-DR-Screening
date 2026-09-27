@@ -11,8 +11,6 @@ MATLAB prototype for the SIH project **"Explainable AI for Diabetic Retinopathy 
 
 > **Research prototype — not a medical device.** Output is for screening support and must be reviewed by an ophthalmologist. The quality thresholds, lesion candidates, model performance, referral threshold, and clinical usefulness require independent validation.
 
-![Application dashboard](docs/application-dashboard.png)
-
 ## What is included
 
 | Component | Included | Notes |
